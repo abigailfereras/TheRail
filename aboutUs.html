@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE RAIL</title>
+<style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #202124;
+            color: #ffffff;
+        }
+        header {
+            background-color: #c21808;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+        nav a {
+            display: inline-block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #c21808;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+		}
+		
+        footer {
+            background-color: #333;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+        }
+		footer {
+			background-color: #202124;
+			color: #ffffff;
+			padding: 20px;
+			text-align: center;
+			bottom: 0;
+			width: 100%;
+		}
+
+		footer ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		footer li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+
+		footer a {
+			color: #ffffff;
+			text-decoration: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: 2px solid #c21808;
+			transition: all 0.3s ease;
+		}
+
+		footer a:hover {
+			background-color: #c21808;
+		}
+		
+		#search-bar {
+            position: relative;
+            display: inline-block;
+        }
+        #search-input {
+            padding: 10px 30px;
+            border: none;
+            border-radius: 20px;
+            background-color: #f0f0f0;
+            font-size: 16px;
+            color: #333;
+            outline: none;
+            width: 200px;
+            transition: all 0.3s ease;
+        }
+        #search-input:focus {
+            width: 300px;
+        }
+        #search-button {
+            position: absolute;
+            top: 50%;
+            right: 5px;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+        }
+        #search-button img {
+            width: 20px;
+            height: 20px;
+            fill: #999;
+            transition: all 0.3s ease;
+        }
+        #search-button img:hover {
+            fill: #c21808; 
+            transform: scale(1.1);
+        }
+		
+		.owner {
+			display: flex;
+			align-items: flex-start;
+			padding: 20px;
+			align-items: center;
+			gap: 40px; 
+		}
+
+		.owner-image {
+			max-width: 40%;
+			height: auto;
+			margin-right: 20px;
+			width: 600px; 
+		}
+
+		.text p {
+			margin: 10px 0;
+		}
+		.h3 {
+			text-align: center;
+		}
+		
+		.text {
+			max-width: 600px; 
+		}
+
+		.p1 {
+			font-size: 1.5em;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		hr {
+		margin: 10px 0;
+		}
+
+	</style>
+</head>
+<body>
+	<header>
+    <h1 style="font-size: 2.5em;">THE RAIL</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a></li>
+    <a href="products.html">Products</a></li>
+    <a href="aboutUs.html">About Us</a></li>
+    <a href="contactUs.html">Contact Us</a></li>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search products...">
+        <button id="search-button"><img src="https://img.icons8.com/ios-filled/50/000000/search--v1.png" alt="Search"></button>
+    </div>
+</nav>
+
+<section id="about">
+	<img src = "logo.jpg" alt="logo">
+    <p>Welcome to our skateboarding universe! Where passion meets precision, and style meets substance. At The Rail, we're more than just a brand; we're a community of riders, creators, and dreamers who live to push the boundaries of what's possible on four wheels.
+Crafted with care and designed for performance, our skateboards embody the spirit of freedom and creativity that defines the skateboarding culture. Whether you're shredding through the streets, hitting the skate park, or cruising along the boardwalk, our boards are your trusty companions, ready to take on any challenge with you.
+From sleek decks to sturdy trucks and smooth-rolling wheels, each component of our skateboards is meticulously chosen to deliver an unparalleled riding experience. We prioritize quality and durability without compromising on style, ensuring that every ride is as exhilarating as the first.
+But beyond the products, it's the people that make our brand truly special. We're united by our love for skateboarding and our shared commitment to fostering a diverse and inclusive community. Whether you're a seasoned pro or just getting started, you're always welcome here.
+So join us as we carve our own path, defy gravity, and inspire the world, one kickflip at a time. Let's ride together and make every moment count. Welcome to the The Rail family!</p>
+	<p>The Rail is a company founded in the Philippines in the year 2024. Its purpose is to give satisfying and high-quality service to individuals seeking a product at a reasonable price. Right now, The Rail simply resells products from many different businesses around the world.</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h3>WANNA KNOW MORE ABOUT US?</h3>
+	</div>
+</section>
+
+<section class="owner">
+    <img src="owners.jpg" alt="owner" class="owner-image">
+    <div class="text">
+        <p class="p1">Behind The Rail</p>
+        <hr>
+        <p>Ms. Abigail and Mr. Matthew are both 20 years old, first-year college students, and a 5-year couple. Mr. Matthew is under the course of Computer Engineering while Ms. Abigail is studying BS Information Technology. 
+        She founded The Rail in 2024 as a symbol of her love for him, who is interested in skateboarding. As a show of collaboration, she encouraged Mr. Matthew to become her co-owner as well. 
+        The relationship they share provides balance to the business because Ms. Abigail has operational skills and knowledge, whereas Mr. Matthew is good at learning the necessary parts and supplies. Because they are both just starting their own company, they chose to work together with a variety of local and worldwide businesses. 
+		Hoping that their goal in 5 years, they will be producing their own product.</p>
+    </div>
+</section>
+	
+<footer style="background-color: #333; color: #ffffff; padding: 20px; text-align: center; bottom: 0; width: 100%;">
+    <ul>
+        <li><a href="#Terms of Service">Terms of Service</a></li>
+        <li><a href="#Privacy Policy">Privacy Policy</a></li>
+		<li><a href="#Shipping Returns">Shipping Returns</a></li>
+    </ul>
+    <p style="margin-top: 20px;">&copy; 2024 The Rail Online Store. All rights reserved.</p>
+</footer>
+</body>
+</html>
